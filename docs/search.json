@@ -1,12 +1,5 @@
 [
   {
-<<<<<<< HEAD
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Robert Gulmann",
-    "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
-=======
     "objectID": "hello.html",
     "href": "hello.html",
     "title": "Robert-Gulmann",
@@ -16,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Robert-Gulmann",
+    "title": "Robert Gulmann",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome to My Website"
   },
   {
     "objectID": "about.html",
@@ -26,6 +19,5 @@
     "title": "About",
     "section": "",
     "text": "About this site"
->>>>>>> d2de28c948df5e2499b4d8764d64b674b3ba8ea7
   }
 ]

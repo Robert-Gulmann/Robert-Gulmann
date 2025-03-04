@@ -1,6 +1,6 @@
 ---
 title: "Robert Gulmann"
-image: Robert-Gulmann-Headshot.jpg
+image: images/Robert-Gulmann-Profile-Photo.jpg
 about:  
   template: jolla
   links:
@@ -8,9 +8,5 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/robert-gulmann/
 ---
-title: "Robert-Gulmann"
----
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Welcome to My Website
