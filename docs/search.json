@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "hello.html",
+    "href": "hello.html",
+    "title": "Robert-Gulmann",
+    "section": "",
+    "text": "print('Hello World!')\n\nHello World!\n\n\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Robert-Gulmann",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
