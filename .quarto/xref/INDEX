@@ -1,5 +1,15 @@
 {
   "index.qmd": {
+<<<<<<< HEAD
     "index.html": "387e8723"
+=======
+    "index.html": "f1ec8d20"
+  },
+  "about.qmd": {
+    "about.html": "00adfdaf"
+  },
+  "hello.qmd": {
+    "hello.html": "9d0700f9"
+>>>>>>> d2de28c948df5e2499b4d8764d64b674b3ba8ea7
   }
 }
