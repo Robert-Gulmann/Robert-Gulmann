@@ -1,0 +1,21 @@
+/*-- scss:defaults --*/
+
+/*-- scss:defaults --*/
+
+// Define custom colors
+$primary: #E94560;   // Vibrant red for buttons
+$navbar-bg: #1A1A2E;  // Deep navy navbar
+$navbar-fg: #FFD700;  // Gold text for navbar
+$body-bg: #F5F5F5;   // Light grey background
+
+// Apply styles to navbar
+.navbar {
+  background-color: $navbar-bg !important;
+  color: $navbar-fg !important;
+}
+
+// Style primary buttons
+.btn-primary {
+  background-color: $primary !important;
+  border-color: darken($primary, 10%) !important;
+}

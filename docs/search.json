@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Robert Gulmann",
     "section": "",
-    "text": "Welcome to My Website"
+    "text": "Hello! I’m Rob Gulmann, a final-year Business Studies student specialising in Data Analytics at Dublin City University. I am a genralist with a passion for technology, finance and entrepreneurship. On this website I will share projects and insights.\n\n\n\nProjects & Case Studies – Data Analytics, Machine Learning, and more.\nBlog Posts – Insights on my life as a student in their final year.\nResources & Tools – Helpful links for Quarto, Python, and Git.\n\n🚀 Explore and feel free to connect!"
   },
   {
     "objectID": "about.html",
@@ -19,5 +19,12 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html#what-youll-find-here",
+    "href": "index.html#what-youll-find-here",
+    "title": "Robert Gulmann",
+    "section": "",
+    "text": "Projects & Case Studies – Data Analytics, Machine Learning, and more.\nBlog Posts – Insights on my life as a student in their final year.\nResources & Tools – Helpful links for Quarto, Python, and Git.\n\n🚀 Explore and feel free to connect!"
   }
 ]

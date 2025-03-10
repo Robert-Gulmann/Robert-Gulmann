@@ -1,0 +1,48 @@
+/*-- scss:defaults --*/
+
+// Import Google Font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+// Custom Professional Colors
+$primary: #D4AF37;   // Gold for buttons & highlights
+$secondary: #E94560; // Soft red accent (optional)
+$navbar-bg: #1A1A2E; // Deep navy navbar
+$navbar-fg: #F8F9FA; // Light text on navbar
+$body-bg: #F8F9FA;   // Soft white background
+$body-color: #2C2C2C; // Dark grey text for contrast
+
+// Apply Montserrat as the site-wide font
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background-color: $body-bg !important;
+  color: $body-color !important;
+}
+
+// Navbar Styling
+.navbar {
+  background-color: $navbar-bg !important;
+  color: $navbar-fg !important;
+  font-weight: 600;
+}
+
+// Button Styling
+.btn-primary {
+  background-color: $primary !important;
+  border-color: darken($primary, 10%) !important;
+  color: #1A1A2E !important;
+}
+
+.btn-primary:hover {
+  background-color: lighten($primary, 10%) !important;
+}
+
+// Links Styling
+a {
+  color: $secondary;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darken($secondary, 10%);
+  text-decoration: underline;
+}
