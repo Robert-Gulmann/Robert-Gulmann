@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Robert-Gulmann"
-  favicon: images/Tab-logo.png
+  favicon: images/Tab-Logo.png
   navbar:
     title: false
     logo: images/Nav-Bar-Logo.png
