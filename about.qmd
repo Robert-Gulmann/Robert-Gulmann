@@ -1,5 +1,32 @@
 ---
-title: "About"
+title: "Rob Gulmann"
+image: images/Eportfolio-Headshot.jpg
+toc: false  # Hides table of contents for a cleaner look
+about:  
+  template: jolla
+  image-shape: round  # Makes the profile picture circular
+  image-width: 17em  # Adjusts size of profile photo
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/robert-gulmann/
+      target: _blank  # Opens in new tab
+    - icon: github
+      text: GitHub
+      href: https://github.com/robert-gulmann/  # Add your GitHub link
+      target: _blank
+    - icon: mail
+      text: Email
+      href: mailto:robert.gulmann3@mail.dcu.ie  # Replace with your email
 ---
 
-About this site
+# 👋 Welcome to My Website!
+
+Hello! I'm **Rob Gulmann**, a final-year Business Studies student specialising in Data Analytics at Dublin City University. I am a generalist with a passion for technology, finance and entrepreneurship. On this website I will share **projects and insights**.
+
+## What You'll Find Here:
+- **Projects & Case Studies** – Data Analytics, Machine Learning, and more.
+- **Blog Posts** – Insights on my life as a final year college student.
+- **Resources & Tools** – Helpful links for Quarto, Python, and Git.
+
+🚀 **Explore and feel free to connect!**

@@ -103,3 +103,72 @@ a:hover {
 .navbar-brand a:hover {
   text-decoration: none;
 }
+
+/* Full-Screen Hero Background */
+.home-hero {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; 
+  height: 100vh;
+  background: url("images/Home-Page-Image.png") no-repeat center center/cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0; 
+  padding: 0;
+  z-index: -1;
+}
+
+/* The White Box */
+.hero-text {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* stack text + buttons vertically */
+  align-items: center;    /* center horizontally */
+  max-width: 450px;
+}
+
+/* Name, subtitle, welcome text */
+.hero-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+  margin: 0 0 5px 0;
+}
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: black;
+  margin: 0 0 5px 0;
+}
+.hero-welcome {
+  font-size: 1rem;
+  color: black;
+  margin: 0 0 10px 0; /* space before buttons */
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.hero-buttons a {
+  text-decoration: none;
+  color: black;
+  background: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+.hero-buttons a:hover {
+  background: black;
+  color: white;
+} 
