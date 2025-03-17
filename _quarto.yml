@@ -9,28 +9,28 @@ website:
     title: false
     logo: images/Nav-Bar-Logo.png
     left:
-      - href: about.qmd
+      - href: "#about"
         text: About
-      - href: projects.qmd
+      - href: "#projects"
         text: Projects
-      - href: media.qmd
+      - href: "#media"
         text: Media
-
+      - href: "#contact"
+        text: Contact
     right:
       - icon: linkedin
-        href: https://www.linkedin.com/in/robert-gulmann/
-        target: _blank  # Opens in a new tab
-      - icon: github
-        href: https://github.com/robert-gulmann/
+        href: "https://www.linkedin.com/in/robert-gulmann/"
         target: _blank
-      - icon: envelope  # Email icon
-        href: mailto:robert.gulmann3@mail.dcu.ie
+      - icon: github
+        href: "https://github.com/robert-gulmann/"
+        target: _blank
+      - icon: envelope
+        href: "mailto:robert.gulmann3@mail.dcu.ie"
 format:
   html:
-    theme: 
-      - lux  # Base theme
-      - style.scss  # Custom styles
+    theme:
+      - lux
+      - style.scss
     toc: false
     page-layout: full
-    mainfont: Poppins  # Apply the Google Font globally
-# Temporary change to trigger a commit
+    mainfont: Poppins

@@ -8,9 +8,41 @@ format: html
   <div class="hero-text">
     <span class="hero-name">Welcome to my ePortfolio 👋🏼</span><br/>
     <div class="hero-buttons">
-      <a href="#contact"><strong>Explore</strong></a>&nbsp;&nbsp;
-      <a href="#about"><strong>Contact Me</strong></a>
+      <a href="#projects"><strong>Explore</strong></a>&nbsp;&nbsp;
+      <a href="#contact"><strong>Contact Me</strong></a>
     </div>
   </div>
 </div>
+<div class="spacer"></div>
+
+```
+
+## About Me {#about}
+```{=html}
+<div class="about-section">
+  <div class="about-text">
+    <p>
+      Hi, I'm Robert Gulmann, a final-year Business & Data Analytics student with a strong passion for finance, machine learning, and entrepreneurship. 
+      I've worked in data analytics at EY and have experience in investment banking applications. I enjoy solving complex problems, developing innovative 
+      business ideas, and staying ahead in the finance & tech space. 
+    </p>
+    <p>
+      In my free time, you'll find me training at the gym, traveling, or working on new projects. 
+      I’m currently focused on machine learning and financial markets, aiming to bridge the gap between data science and investment strategy.
+    </p>
+  </div>
+  <div class="about-image">
+    <img src="images/Eportfolio-Headshot.jpg" alt="Robert Gulmann Headshot">
+  </div>
+</div>
+```
+
+## Projects {#projects}
+Your projects content goes here...
+
+## Media {#media}
+Your media content goes here...
+
+## Contact {#contact}
+Your contact content goes here...
 ```
