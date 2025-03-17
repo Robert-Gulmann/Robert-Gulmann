@@ -19,7 +19,15 @@ website:
         text: Hello
       - href: contact.qmd
         text: Contact
-
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/robert-gulmann/
+        target: _blank  # Opens in a new tab
+      - icon: github
+        href: https://github.com/robert-gulmann/
+        target: _blank
+      - icon: envelope  # Email icon
+        href: mailto:robert.gulmann3@mail.dcu.ie
 format:
   html:
     theme: 
