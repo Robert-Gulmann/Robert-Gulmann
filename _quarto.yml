@@ -4,13 +4,11 @@ project:
 
 website:
   title: "Robert-Gulmann"
-  favicon: images/RG_Logo.png
+  favicon: images/Tab-logo.png
   navbar:
     title: false
-    logo: images/RG_Logo.png
+    logo: images/Nav-Bar-Logo.png
     left:
-      - href: index.qmd
-        text: Home
       - href: about.qmd
         text: About
       - href: projects.qmd

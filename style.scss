@@ -46,3 +46,60 @@ a:hover {
   color: darken($secondary, 10%);
   text-decoration: underline;
 }
+
+// Navbar Layout
+.navbar {
+  display: flex !important;
+  align-items: center !important; /* Ensures everything inside is centered */
+  height: 80px !important; /* Adjust to fit the logo properly */
+  padding: 0 !important;
+}
+
+.navbar-brand {
+  display: flex !important;
+  align-items: center !important; /* Ensures the logo is aligned with links */
+  height: 100% !important;
+}
+
+.navbar-brand img {
+  max-height: none !important;
+  height: 190px !important; /* Adjust if needed */
+  width: auto !important;
+  margin-bottom: -13px !important; /* Moves it down slightly */
+}
+
+/* ========================= */
+/* Make Navbar Logo Clickable */
+/* ========================= */
+
+.navbar-brand {
+  position: relative; /* Needed to position the overlay */
+}
+
+/* Create an invisible link on top of the logo */
+.navbar-brand::after {
+  content: ""; /* Invisible clickable element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2; /* Ensures it sits on top */
+}
+
+/* Ensure clicking the logo redirects to home */
+.navbar-brand a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+/* Hide default text decoration */
+.navbar-brand a:hover {
+  text-decoration: none;
+}

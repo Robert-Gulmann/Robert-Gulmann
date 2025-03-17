@@ -1,6 +1,6 @@
 ---
 title: "Rob Gulmann"
-image: images/Robert-Gulmann-Profile-Photo.jpg
+image: images/Eportfolio-Headshot.jpg
 toc: false  # Hides table of contents for a cleaner look
 about:  
   template: jolla
