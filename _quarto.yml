@@ -15,7 +15,7 @@ website:
         text: Projects
       - href: media.qmd
         text: Media
-        
+
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/robert-gulmann/
@@ -33,3 +33,4 @@ format:
     toc: false
     page-layout: full
     mainfont: Poppins  # Apply the Google Font globally
+# Temporary change to trigger a commit
