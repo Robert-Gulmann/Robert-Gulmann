@@ -15,10 +15,7 @@ website:
         text: Projects
       - href: media.qmd
         text: Media
-      - href: hello.qmd
-        text: Hello
-      - href: contact.qmd
-        text: Contact
+        
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/robert-gulmann/
