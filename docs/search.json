@@ -25,7 +25,7 @@
     "href": "index.html#about",
     "title": "Robert-Gulmann",
     "section": "About Me",
-    "text": "About Me\n\n  \n    \n      Hi, I'm Robert Gulmann, a final-year Business & Data Analytics student with a strong passion for finance, machine learning, and entrepreneurship. \n      I've worked in data analytics at EY and have experience in investment banking applications. I enjoy solving complex problems, developing innovative \n      business ideas, and staying ahead in the finance & tech space. \n    \n    \n      In my free time, you'll find me training at the gym, traveling, or working on new projects. \n      I’m currently focused on machine learning and financial markets, aiming to bridge the gap between data science and investment strategy."
+    "text": "About Me\n\n  \n    \n      Hi, I'm Robert Gulmann, a final-year Business & Data Analytics student with a strong passion for finance, machine learning, and entrepreneurship. \n      I've worked in data analytics at EY and have experience in investment banking applications. I enjoy solving complex problems, developing innovative \n      business ideas, and staying ahead in the finance & tech space.\n    \n    \n      In my free time, you'll find me training at the gym, traveling, or working on new projects. \n      I’m currently focused on machine learning and financial markets, aiming to bridge the gap between data science and investment strategy."
   },
   {
     "objectID": "index.html#projects",
@@ -39,13 +39,6 @@
     "href": "index.html#media",
     "title": "Robert-Gulmann",
     "section": "Media",
-    "text": "Media\nYour media content goes here…"
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Robert-Gulmann",
-    "section": "Contact",
-    "text": "Contact\nYour contact content goes here… ```"
+    "text": "Media\n\n  Podcasts\n  \n    I love podcasts. Here are three that I find most interesting and valuable:\n  \n  \n  \n    \n      \n      An insightful discussion on the art of communication and how to master this unappreciated artform.\n    \n\n    \n      \n       David Goggins is a testament to resilience and hardship. If you haven't heard his story then you must drop everything and watch this fascinating conversation with Joe Rogan.\n    \n\n    \n      \n       David Choe is an American artist, musician, actor, former journalist and multimillionaire. Just trust me and watch, you wont regret it!\n    \n  \n\n\n## Contact {#contact}\nYour contact content goes here..."
   }
 ]

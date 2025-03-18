@@ -24,7 +24,7 @@ format: html
     <p>
       Hi, I'm Robert Gulmann, a final-year Business & Data Analytics student with a strong passion for finance, machine learning, and entrepreneurship. 
       I've worked in data analytics at EY and have experience in investment banking applications. I enjoy solving complex problems, developing innovative 
-      business ideas, and staying ahead in the finance & tech space. 
+      business ideas, and staying ahead in the finance & tech space.
     </p>
     <p>
       In my free time, you'll find me training at the gym, traveling, or working on new projects. 
@@ -41,7 +41,30 @@ format: html
 Your projects content goes here...
 
 ## Media {#media}
-Your media content goes here...
+```{=html}
+<div class="media-section">
+  <h2>Podcasts</h2>
+  <p class="media-description">
+    I love podcasts. Here are three that I find most interesting and valuable:
+  </p>
+  
+  <div class="video-container">
+    <div class="video-item">
+      <iframe width="400" height="225" src="https://www.youtube.com/embed/oIiv_335yus" frameborder="0" allowfullscreen></iframe>
+      <p class="video-text">An insightful discussion on the art of communication and how to master this unappreciated artform.</p>
+    </div>
+
+    <div class="video-item">
+      <iframe width="400" height="225" src="https://www.youtube.com/embed/BvWB7B8tXK8" frameborder="0" allowfullscreen></iframe>
+      <p class="video-text"> David Goggins is a testament to resilience and hardship. If you haven't heard his story then you must drop everything and watch this fascinating conversation with Joe Rogan.</p>
+    </div>
+
+    <div class="video-item">
+      <iframe width="400" height="225" src="https://www.youtube.com/embed/j7T6__UbhBI" frameborder="0" allowfullscreen></iframe>
+      <p class="video-text"> David Choe is an American artist, musician, actor, former journalist and multimillionaire. Just trust me and watch, you wont regret it!</p>
+    </div>
+  </div>
+</div>
 
 ## Contact {#contact}
 Your contact content goes here...

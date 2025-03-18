@@ -212,3 +212,49 @@ body, html {
     }
   }
 }
+
+/* Media Section */
+.media-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.media-description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center; /* Centers videos */
+  align-items: flex-start; /* Aligns videos at the top */
+  gap: 30px; /* Space between videos */
+  flex-wrap: wrap; /* Ensures responsiveness */
+  max-width: 1200px; /* Prevents videos from stretching too wide */
+  margin: auto;
+}
+
+.video-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%; /* Each video takes up 30% of the row */
+  min-width: 320px; /* Ensures they don’t get too small */
+}
+
+.video-item iframe {
+  width: 100%; /* Make sure the video takes the full width of the container */
+  aspect-ratio: 16 / 9; /* Maintain aspect ratio */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.video-text {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+  text-align: center;
+  max-width: 90%;
+}
