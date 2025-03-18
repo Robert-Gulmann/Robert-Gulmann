@@ -6,7 +6,7 @@ format: html
 ```{=html}
 <div class="home-hero">
   <div class="hero-text">
-    <span class="hero-name">Welcome to my ePortfolio 👋🏼</span><br/>
+    <span class="hero-name"><strong>Welcome to my ePortfolio 👋🏼</strong></span><br/>
     <div class="hero-buttons">
       <a href="#projects"><strong>Explore</strong></a>&nbsp;&nbsp;
       <a href="#contact"><strong>Contact Me</strong></a>
@@ -16,23 +16,59 @@ format: html
 <div class="spacer"></div>
 ```
 
-## About Me {#about}
+## About {#about}
 ```{=html}
 <div class="about-section">
-  <div class="about-text">
-    <p>
-      Hi, I'm Robert Gulmann, a final-year Business & Data Analytics student with a strong passion for finance, machine learning, and entrepreneurship. 
-      I've worked in data analytics at EY and have experience in investment banking applications. I enjoy solving complex problems, developing innovative 
-      business ideas, and staying ahead in the finance & tech space.
-    </p>
-    <p>
-      In my free time, you'll find me training at the gym, traveling, or working on new projects. 
-      I’m currently focused on machine learning and financial markets, aiming to bridge the gap between data science and investment strategy.
-    </p>
+
+  <!-- First Row: Who am I? -->
+  <div class="about-container">
+    <div class="about-text">
+      <h3>Who am I?</h3>
+      <p>
+        Hi, I'm Robert Gulmann, a final-year Business & Data Analytics student with a strong passion for finance, machine learning, and entrepreneurship. 
+        I've worked in data analytics at EY and have experience in investment banking applications. I enjoy solving complex problems, developing innovative 
+        business ideas, and staying ahead in the finance & tech space.
+      </p>
+      <p>
+        In my free time, you'll find me training at the gym, traveling, or working on new projects. 
+        I’m currently focused on machine learning and financial markets, aiming to bridge the gap between data science and investment strategy.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="images/Eportfolio-Headshot.jpg" alt="Robert Gulmann Headshot">
+    </div>
   </div>
-  <div class="about-image">
-    <img src="images/Eportfolio-Headshot.jpg" alt="Robert Gulmann Headshot">
+
+  <!-- Second Row: What is this website about? -->
+  <div class="about-container">
+    <div class="about-text">
+      <h3>What is this website about?</h3>
+      <p>
+        This website serves as my <strong>personal ePortfolio</strong>, showcasing my skills, projects, and insights across 
+        <strong>data analytics, finance, and technology</strong>. 
+        Here, you’ll find my work, blog posts, and recommendations that reflect my interests and professional journey.
+      </p>
+    </div>
+    <div class="about-image second-image">
+      <img src="images/about-photo2.jpg" alt="Additional About Image">
+    </div>
   </div>
+
+  <!-- Third Row: Why did I create this website? -->
+  <div class="about-container">
+    <div class="about-text">
+      <h3>Why did I create this website?</h3>
+      <p>
+        I wanted a space to document my journey, explore ideas, and create an online presence that reflects my passion for 
+        <strong>technology, finance, and innovation</strong>. 
+        This portfolio is a way to <strong>connect with like-minded individuals, share insights</strong>, and continuously improve my craft.
+      </p>
+    </div>
+    <div class="about-image third-image">
+      <img src="images/about-photo3.jpg" alt="Third About Image">
+    </div>
+  </div>
+
 </div>
 ```
 
