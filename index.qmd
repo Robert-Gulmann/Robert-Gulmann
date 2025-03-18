@@ -14,7 +14,6 @@ format: html
   </div>
 </div>
 <div class="spacer"></div>
-
 ```
 
 ## About Me {#about}
@@ -56,16 +55,43 @@ Your projects content goes here...
 
     <div class="video-item">
       <iframe width="400" height="225" src="https://www.youtube.com/embed/BvWB7B8tXK8" frameborder="0" allowfullscreen></iframe>
-      <p class="video-text"> David Goggins is a testament to resilience and hardship. If you haven't heard his story then you must drop everything and watch this fascinating conversation with Joe Rogan.</p>
+      <p class="video-text">David Goggins is a testament to resilience and hardship. If you haven't heard his story, then you must drop everything and watch this fascinating conversation with Joe Rogan.</p>
     </div>
 
     <div class="video-item">
       <iframe width="400" height="225" src="https://www.youtube.com/embed/j7T6__UbhBI" frameborder="0" allowfullscreen></iframe>
-      <p class="video-text"> David Choe is an American artist, musician, actor, former journalist and multimillionaire. Just trust me and watch, you wont regret it!</p>
+      <p class="video-text">David Choe is an American artist, musician, actor, former journalist, and multimillionaire. Just trust me and watch, you won’t regret it!</p>
     </div>
   </div>
-</div>
+</div>  
+```
 
 ## Contact {#contact}
-Your contact content goes here...
+```{=html}
+<div class="contact-section">
+  <h2>Get in touch!</h2>
+  <p class="contact-description">
+    For general queries or to hire me for freelance work, please fill out the form below.
+  </p>
+
+  <form action="https://formspree.io/f/{robert.gulmann@mail.dcu.ie}" method="POST" class="contact-form">
+    <div class="form-group">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+    </div>
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit" class="contact-button">HIRE ME <i class="fas fa-paper-plane"></i></button>
+  </form>
+
+  <p class="connect-text">Don't be shy, connect with me:</p>
+  
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/robert-gulmann" target="_blank">
+      <span class="bi bi-linkedin"></span> <!-- Uses Bootstrap Icons -->
+    </a>
+    <a href="https://github.com/Robert-Gulmann" target="_blank">
+      <span class="bi bi-github"></span>
+    </a>
+  </div>
+</div>
 ```
