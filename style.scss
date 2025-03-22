@@ -386,3 +386,26 @@ textarea {
 .social-icons a:hover {
   color: #555;
 }
+
+.interesting-videos {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.video-grid .video-item {
+  flex: 1 1 350px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
