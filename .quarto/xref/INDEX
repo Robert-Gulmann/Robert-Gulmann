@@ -16,5 +16,23 @@
   },
   "media.qmd": {
     "media.html": "ab963372"
+  },
+  "projects/bip.qmd": {
+    "bip.html": "731b56c8"
+  },
+  "projects/machine-learning.qmd": {
+    "machine-learning.html": "d5b0dff6"
+  },
+  "projects/wip.qmd": {
+    "wip.html": "b65aae38"
+  },
+  "projects/goodbody.qmd": {
+    "goodbody.html": "b8d26276"
+  },
+  "projects/stockpath.qmd": {
+    "stockpath.html": "a608d3d1"
+  },
+  "projects/dataviz.qmd": {
+    "dataviz.html": "081b4721"
   }
 }

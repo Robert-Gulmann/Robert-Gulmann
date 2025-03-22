@@ -409,3 +409,82 @@ textarea {
   flex-direction: column;
   align-items: center;
 }
+
+.projects-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.project-card {
+  width: 320px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.project-card img:hover {
+  transform: scale(1.03);
+}
+
+.project-card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #000;
+  text-decoration: underline;
+}
+
+.project-title {
+  font-size: 1.05rem;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.back-top-left {
+  position: absolute;
+  top: 100px; /* ⬅️ This was probably too small before */
+  left: 30px;
+  background-color: #f8f9fa;
+  color: #1a1a2e;
+  padding: 10px 15px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: background-color 0.2s ease, color 0.2s ease;
+  z-index: 1000;
+}
+
+.back-top-left:hover {
+  background-color: #d4af37;
+  color: white;
+}

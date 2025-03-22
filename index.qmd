@@ -73,7 +73,47 @@ format: html
 ```
 
 ## Projects {#projects}
-Your projects content goes here...
+
+```{=html}
+<div class="projects-section">
+
+  <h2>College Projects</h2>
+  <div class="project-grid">
+    <a href="projects/machine-learning.html" class="project-card">
+      <img src="images/projects/ml-thumbnail.jpg" alt="Thumbnail of Machine Learning Project">
+      <h3 class="project-title">Machine Learning Project</h3>
+    </a>
+
+    <a href="projects/stockpath.html" class="project-card">
+      <img src="images/projects/stockpath-thumbnail.jpg" alt="Thumbnail of StockPath Project">
+      <h3 class="project-title">StockPath</h3>
+    </a>
+
+    <a href="projects/dataviz.html" class="project-card">
+      <img src="images/projects/dataviz-thumbnail.jpg" alt="Thumbnail of Data Visualisation Project">
+      <h3 class="project-title">Data Visualisation Project</h3>
+    </a>
+  </div>
+
+  <h2>Extracurriculars</h2>
+  <div class="project-grid">
+    <a href="projects/wip.html" class="project-card">
+      <img src="images/WIP-2025.png" alt="Washington Ireland Program Badge">
+      <h3 class="project-title">Washington Ireland Program</h3>
+    </a>
+
+    <a href="projects/bip.html" class="project-card">
+      <img src="images/BIP-Berlin.jpg" alt="BIP Berlin Scholarship Group Photo">
+      <h3 class="project-title">BIP Berlin Scholarship</h3>
+    </a>
+
+    <a href="projects/goodbody.html" class="project-card">
+      <img src="images/Goodbody-SMF.jpeg" alt="Goodbody Student Managed Fund Logo">
+      <h3 class="project-title">Goodbody SMF Competition</h3>
+    </a>
+  </div>
+
+</div>
 
 ## Media {#media}
 ```{=html}
