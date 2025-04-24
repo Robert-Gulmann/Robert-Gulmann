@@ -3,3 +3,18 @@
   ← Back to Projects
 </a>
 ```
+<h1>
+Car Sales Dataset Project & Presentation
+</h1>
+<p>
+For our group data analytics project, we chose to work with the "Vehicle Sales and Market Trends Dataset" from Kaggle. This dataset stood out to us because of its size (over 550,000 rows) and the richness of information it offered. It contained detailed records of used car sales across the US, including data points like the make, model, year, odometer reading, condition, sale price, and Manheim Market Report (MMR) value. We were particularly drawn to this dataset not only because it was comprehensive and well-structured but also because car sales serve as a powerful economic indicator — something that makes the data highly relevant and relatable to us as business students.
+
+I was responsible for the data cleansing and preparation stage of the project, which was a huge learning experience. When we first downloaded the dataset, we quickly realised it wasn’t ready for analysis. Some rows had data misaligned across columns, and the saledate field was in a messy format that included timezone information. To resolve these issues, I used Python with the pandas library. One script reformatted the saledate field to a clean YYYY-MM-DD format, and another filtered out any rows where the ‘state’ field had more than two characters — a clear sign of column shift errors.
+
+Once the data was cleaned at a basic level in Python, I moved over to SQL (using pgAdmin) to create a structured database table. I imported the cleaned CSV and began refining it further: removing unnecessary columns like trim, vin, and seller; capitalising the first letter of key text fields for consistency; and deleting rows with more than two null values or unrealistic figures (like cars with 700,000+ miles or prices under $500). I also created a new column for the full name of each state and calculated the difference between the sale price and the MMR value to provide insights on over- or underpriced vehicles.
+
+Presenting this work to the class was a great experience. I spoke for two minutes about the entire data cleansing process — what we started with, the issues we encountered, how I approached fixing them, and the impact that cleansing had on the quality of our insights. I kept my slide simple, letting the code and my explanation do the talking. The goal was to make it clear that clean, structured data is the foundation of any meaningful analysis — and to show how even a great dataset from a reputable source still needs preparation.
+
+This project helped solidify my skills in Python, SQL, and data cleaning workflows. More importantly, it showed me how valuable it is to present technical work in a way that’s accessible to others, especially when working in a team. I really enjoyed contributing to the technical side of this project and seeing the Power BI dashboards that my teammates created from the cleaned dataset. It felt like a proper end-to-end data pipeline — and that’s exactly the kind of thing I want to keep building in my career.
+
+</p>
