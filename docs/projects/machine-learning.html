@@ -142,32 +142,83 @@ ul.task-list li input[type="checkbox"] {
 <a href="../index.html#projects" class="back-button back-top-left">
   ← Back to Projects
 </a>
-<h1>
+<div class="project-page">
+
+  <!-- Top Banner Image -->
+  <div class="project-header-image">
+    <img src="../images/ML-Project.jpg" alt="Berlin group photo">
+  </div>
+
+  <!-- Content Area -->
+  <div class="project-content">
+    <div class="project-text">
+
+<h2 class="anchored">
 Heart Disease Machine Learning Project – Personal Reflection
-</h1>
+</h2>
 <p>
-</p><p>This machine learning project was easily one of the most rewarding, eye-opening pieces of work I’ve done during my final year. The goal was to build, evaluate, and reflect on three supervised learning models to predict the presence of heart disease using the Cleveland dataset. We tested each model on raw and preprocessed data and explored the impact of Principal Component Analysis (PCA). What started off as a fairly technical assignment ended up teaching me just as much about the real-world implications of AI in healthcare as it did about algorithms and performance metrics.</p>
-<p>My Approach From the beginning, I knew I didn’t want to just get a model that performed well — I wanted to understand why it performed the way it did. So I focused on three popular supervised models: Logistic Regression, K-Nearest Neighbours (KNN), and Decision Tree Classifier. Each model had a distinct advantage: Logistic Regression for its interpretability, KNN for its adaptability in high-variance data, and Decision Trees for their intuitive visual structure.</p>
-<p>I began by preprocessing the Cleveland dataset, including a version where outliers were capped using the interquartile range method. This was an essential step, especially for models like KNN that are highly sensitive to scale and noise. Once that was done, I split the data into training and test sets (80/20), ran hyperparameter tuning using GridSearchCV, and evaluated each model using multiple metrics: accuracy, precision, recall, F1 score, and ROC AUC.</p>
-<p>Key Outcomes KNN turned out to be the top-performing model in terms of pure predictive power. On the capped dataset (without PCA), it delivered the highest F1 score and AUC of any configuration, highlighting just how much distance-based models benefit from careful preprocessing. This result lined up with what I’d read from Shah, Patel, and Bharti (2020), who found similar trends in their work on heart disease prediction. It also validated my decision to take preprocessing seriously.</p>
-<p>That said, performance isn’t everything. Logistic Regression, while not topping the charts in raw accuracy, stood out for its reliability and transparency. In healthcare, that matters — a model might be 2 percent more accurate, but if it’s a black box, how can a doctor trust it? Ciu and Oetama (2020) put this well in their work on model explainability, and it really resonated with me while working on this.</p>
-<p>Decision Trees were interesting. They started strong and were the easiest to understand at a glance, but they suffered from overfitting. Even after hyperparameter tuning, they struggled to generalise, particularly on capped data. That said, their visual interpretability is something I’d still consider useful in certain settings — maybe as part of a hybrid model or ensemble.</p>
-<p>The PCA Factor One of the bigger learning curves for me was around PCA. I’d used it before in college but never fully appreciated its impact until now. When I applied PCA to reduce dimensionality while retaining 95% of the variance, the results were mixed. KNN improved with PCA, especially on the capped data, which made sense as PCA reduces noise and collinearity. For KNN, this meant cleaner distance calculations and better class separation.</p>
-<p>But for Logistic Regression, PCA actually caused a drop in performance. This was expected in hindsight. Logistic models rely on the original features to draw interpretable relationships. When those features are transformed into principal components, some of that clarity is lost. Gárate-Escamila et al.&nbsp;(2020) described this really well, pointing out how PCA can strip away meaningful clinical variables. So while PCA has its place, I learned it’s not a one-size-fits-all solution.</p>
-<p>What I’d Do Differently Looking back, there are a few things I’d do differently if I had another go. First, I’d include k-fold cross-validation. While the train-test split gave me decent results, it doesn’t fully reflect how the models would perform on new unseen data. Cross-validation would add more robustness and help avoid the luck of a “good” split.</p>
-<p>I’d also explore ensemble methods like Random Forests or Gradient Boosting. I was limited by time and the scope of the module, but these techniques would have addressed the overfitting I ran into with Decision Trees and might have outperformed the individual models.</p>
-<p>Finally, I would love to incorporate more nuanced patient features into the dataset. Things like lifestyle, medication history, or genetic markers could provide additional predictive power and make the model outputs even more clinically relevant.</p>
-<p>Skills Gained On a technical level, this project helped me become much more confident with model evaluation and hyperparameter tuning. I got comfortable with the Scikit-learn pipeline and learned how to structure a real-world ML project from data import all the way to ROC curve analysis. I also got better at reading code outputs critically and translating those results into meaningful insights.</p>
-<p>From a soft skills perspective, this project really pushed me to think critically about trade-offs — not just between accuracy and interpretability, but between short-term performance and long-term usability. In a world where AI models are making real decisions that impact people’s lives, that distinction matters.</p>
-<p>It also improved my communication skills. Writing up the final report, I had to present technical results in a way that someone with a clinical background (or even no data background at all) could follow. That experience is going to be invaluable whether I end up working in data analytics, consulting, or healthcare tech.</p>
-<p>Final Thoughts This wasn’t just a coding assignment. It was a chance to apply everything I’ve learned over the last few years in a way that felt genuinely impactful. I wasn’t just building models — I was simulating what it would be like to build tools that could assist in real diagnoses. I saw the tension between complexity and clarity, between predictive power and human understanding.</p>
-<p>KNN with outlier capping ended up being the best model in terms of performance. Logistic Regression, however, was the most trustworthy from a clinical perspective. Decision Trees brought an added layer of visualisation and reasoning but needed more regularisation. Each model taught me something different, and each one added to the broader picture of what good, responsible machine learning looks like in practice.</p>
-<p>This project gave me more than grades or graphs. It gave me a clearer sense of how I want to apply these skills after university — working on problems that actually matter, where accuracy and empathy go hand-in-hand.</p>
-<p></p>
+This machine learning project was easily one of the most rewarding, eye-opening pieces of work I’ve done during my final year. The goal was to build, evaluate, and reflect on three supervised learning models to predict the presence of heart disease using the Cleveland dataset. We tested each model on raw and preprocessed data and explored the impact of Principal Component Analysis (PCA). What started off as a fairly technical assignment ended up teaching me just as much about the real-world implications of AI in healthcare as it did about algorithms and performance metrics.
+</p>
+<p>
+My Approach
+From the beginning, I knew I didn’t want to just get a model that performed well — I wanted to understand why it performed the way it did. So I focused on three popular supervised models: Logistic Regression, K-Nearest Neighbours (KNN), and Decision Tree Classifier. Each model had a distinct advantage: Logistic Regression for its interpretability, KNN for its adaptability in high-variance data, and Decision Trees for their intuitive visual structure.
+</p>
+<p>
+I began by preprocessing the Cleveland dataset, including a version where outliers were capped using the interquartile range method. This was an essential step, especially for models like KNN that are highly sensitive to scale and noise. Once that was done, I split the data into training and test sets (80/20), ran hyperparameter tuning using GridSearchCV, and evaluated each model using multiple metrics: accuracy, precision, recall, F1 score, and ROC AUC.
+</p>
+<p>
+Key Outcomes
+KNN turned out to be the top-performing model in terms of pure predictive power. On the capped dataset (without PCA), it delivered the highest F1 score and AUC of any configuration, highlighting just how much distance-based models benefit from careful preprocessing. This result lined up with what I’d read from Shah, Patel, and Bharti (2020), who found similar trends in their work on heart disease prediction. It also validated my decision to take preprocessing seriously.
+</p>
+<p>
+That said, performance isn’t everything. Logistic Regression, while not topping the charts in raw accuracy, stood out for its reliability and transparency. In healthcare, that matters — a model might be 2 percent more accurate, but if it’s a black box, how can a doctor trust it? Ciu and Oetama (2020) put this well in their work on model explainability, and it really resonated with me while working on this.
+</p>
+<p>
+Decision Trees were interesting. They started strong and were the easiest to understand at a glance, but they suffered from overfitting. Even after hyperparameter tuning, they struggled to generalise, particularly on capped data. That said, their visual interpretability is something I’d still consider useful in certain settings — maybe as part of a hybrid model or ensemble.
+</p>
+<p>
+The PCA Factor
+One of the bigger learning curves for me was around PCA. I’d used it before in college but never fully appreciated its impact until now. When I applied PCA to reduce dimensionality while retaining 95% of the variance, the results were mixed. KNN improved with PCA, especially on the capped data, which made sense as PCA reduces noise and collinearity. For KNN, this meant cleaner distance calculations and better class separation.
+</p>
+<p>
+But for Logistic Regression, PCA actually caused a drop in performance. This was expected in hindsight. Logistic models rely on the original features to draw interpretable relationships. When those features are transformed into principal components, some of that clarity is lost. Gárate-Escamila et al. (2020) described this really well, pointing out how PCA can strip away meaningful clinical variables. So while PCA has its place, I learned it’s not a one-size-fits-all solution.
+</p>
+<p>
+What I’d Do Differently
+Looking back, there are a few things I’d do differently if I had another go. First, I’d include k-fold cross-validation. While the train-test split gave me decent results, it doesn’t fully reflect how the models would perform on new unseen data. Cross-validation would add more robustness and help avoid the luck of a “good” split.
+</p>
+<p>
+I’d also explore ensemble methods like Random Forests or Gradient Boosting. I was limited by time and the scope of the module, but these techniques would have addressed the overfitting I ran into with Decision Trees and might have outperformed the individual models.
+</p>
+<p>
+Finally, I would love to incorporate more nuanced patient features into the dataset. Things like lifestyle, medication history, or genetic markers could provide additional predictive power and make the model outputs even more clinically relevant.
+</p>
+<p>
+Skills Gained
+On a technical level, this project helped me become much more confident with model evaluation and hyperparameter tuning. I got comfortable with the Scikit-learn pipeline and learned how to structure a real-world ML project from data import all the way to ROC curve analysis. I also got better at reading code outputs critically and translating those results into meaningful insights.
+</p>
+<p>
+From a soft skills perspective, this project really pushed me to think critically about trade-offs — not just between accuracy and interpretability, but between short-term performance and long-term usability. In a world where AI models are making real decisions that impact people’s lives, that distinction matters.
+</p>
+<p>
+It also improved my communication skills. Writing up the final report, I had to present technical results in a way that someone with a clinical background (or even no data background at all) could follow. That experience is going to be invaluable whether I end up working in data analytics, consulting, or healthcare tech.
+</p>
+<p>
+Final Thoughts
+This wasn’t just a coding assignment. It was a chance to apply everything I’ve learned over the last few years in a way that felt genuinely impactful. I wasn’t just building models — I was simulating what it would be like to build tools that could assist in real diagnoses. I saw the tension between complexity and clarity, between predictive power and human understanding.
+</p>
+<p>
+KNN with outlier capping ended up being the best model in terms of performance. Logistic Regression, however, was the most trustworthy from a clinical perspective. Decision Trees brought an added layer of visualisation and reasoning but needed more regularisation. Each model taught me something different, and each one added to the broader picture of what good, responsible machine learning looks like in practice.
+</p>
+<p>
+This project gave me more than grades or graphs. It gave me a clearer sense of how I want to apply these skills after university — working on problems that actually matter, where accuracy and empathy go hand-in-hand.
+</p>
+
+</div>
 
 
 
-</main> <!-- /main -->
+</div></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
