@@ -26,6 +26,11 @@ website:
         target: _blank
       - icon: envelope
         href: "mailto:robert.gulmann3@mail.dcu.ie"
+      - icon: file-earmark-pdf
+        href: files/Robert-Gulmann-Resume.pdf
+        target: _blank
+        aria-label: Resume
+
 format:
   html:
     theme:
